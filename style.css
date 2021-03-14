@@ -10,3 +10,66 @@ body {
 }
 
 /* Add styles here! */
+strong {
+  color: MediumSeaGreen;
+}
+
+header {
+  padding: 80px 30px 30px;
+  border-bottom: 5px solid dimgray;
+}
+
+header p {
+  font-size: 24px;
+}
+
+main {
+  background-color: darkgray;
+  padding: 40px 0;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 5px solid dimgray;
+  padding-top: 5px;
+}
+
+.card p {
+  padding: 0 30px;
+  font-size: 18px;
+}
+
+.indented-heading {
+  background-color: hsl(44,100%,50%);
+  border-bottom: 5px solid Goldenrod;
+  margin-left: -20px;
+  margin-top: 0;
+  padding: 20px 50px;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .intro-chunk {
+    max-width: 67%;
+  }
+
+  .indented-heading {
+    width: fit-content;
+  }
+
+  .card p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 800px) {
+  .max-width-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .intro-chunk {
+     margin-left: 30px;
+     max-width: 50%;
+  }
+}
